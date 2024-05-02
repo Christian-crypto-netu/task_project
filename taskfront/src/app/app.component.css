@@ -1,0 +1,21 @@
+.fa {
+  cursor: pointer;
+}
+.fa-edit:hover{
+  color: blue;
+}
+.fa-trash:hover{
+  color: red;
+}
+.card {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.card:hover {
+  background-color: rgb(163, 163, 163);
+  color: white !important;
+  border: solid 1px;
+  border-color: black !important;
+}
